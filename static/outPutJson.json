@@ -1,0 +1,1402 @@
+{
+    "range": [
+        155,
+        950
+    ],
+    "type": "Program",
+    "body": [
+        {
+            "range": [
+                155,
+                208
+            ],
+            "type": "FunctionDeclaration",
+            "id": {
+                "range": [
+                    164,
+                    172
+                ],
+                "type": "Identifier",
+                "name": "sayHello"
+            },
+            "params": [],
+            "defaults": [],
+            "body": {
+                "range": [
+                    175,
+                    208
+                ],
+                "type": "BlockStatement",
+                "body": [
+                    {
+                        "range": [
+                            182,
+                            205
+                        ],
+                        "type": "ReturnStatement",
+                        "argument": {
+                            "range": [
+                                189,
+                                204
+                            ],
+                            "type": "Literal",
+                            "value": "Hello Amit !!",
+                            "raw": "\"Hello Amit !!\""
+                        }
+                    }
+                ]
+            },
+            "generator": false,
+            "expression": false,
+            "leadingComments": [
+                {
+                    "type": "Line",
+                    "value": "@JS_mine( {\"specName\":\"SayHello\",\"testName\":\"should say Hello Amit !!\",\"matcher\":\"toEqual\",\"param\":{\"ip\":[],\"xop\":{\"returnValue\":\"Hello Amit !!\"}}});",
+                    "range": [
+                        2,
+                        153
+                    ]
+                }
+            ]
+        },
+        {
+            "range": [
+                214,
+                277
+            ],
+            "type": "FunctionDeclaration",
+            "id": {
+                "range": [
+                    223,
+                    232
+                ],
+                "type": "Identifier",
+                "name": "dontParse"
+            },
+            "params": [],
+            "defaults": [],
+            "body": {
+                "range": [
+                    235,
+                    277
+                ],
+                "type": "BlockStatement",
+                "body": [
+                    {
+                        "range": [
+                            242,
+                            274
+                        ],
+                        "type": "ReturnStatement",
+                        "argument": {
+                            "range": [
+                                249,
+                                273
+                            ],
+                            "type": "Literal",
+                            "value": "I don't like parsing!!",
+                            "raw": "\"I don't like parsing!!\""
+                        }
+                    }
+                ]
+            },
+            "generator": false,
+            "expression": false,
+            "trailingComments": [
+                {
+                    "type": "Line",
+                    "value": "@JS_mine({\"specName\":\"Check Sum\",\"testName\":\"should give you the sum\",\"matcher\":\"toBe\",\"param\":{\"ip\":[2,6],\"xop\":{\"returnValue\":8}}});",
+                    "range": [
+                        281,
+                        417
+                    ]
+                }
+            ]
+        },
+        {
+            "range": [
+                419,
+                468
+            ],
+            "type": "FunctionDeclaration",
+            "id": {
+                "range": [
+                    428,
+                    438
+                ],
+                "type": "Identifier",
+                "name": "checkTotal"
+            },
+            "params": [
+                {
+                    "range": [
+                        439,
+                        440
+                    ],
+                    "type": "Identifier",
+                    "name": "x"
+                },
+                {
+                    "range": [
+                        442,
+                        443
+                    ],
+                    "type": "Identifier",
+                    "name": "y"
+                }
+            ],
+            "defaults": [],
+            "body": {
+                "range": [
+                    445,
+                    468
+                ],
+                "type": "BlockStatement",
+                "body": [
+                    {
+                        "range": [
+                            452,
+                            465
+                        ],
+                        "type": "ReturnStatement",
+                        "argument": {
+                            "range": [
+                                459,
+                                464
+                            ],
+                            "type": "BinaryExpression",
+                            "operator": "+",
+                            "left": {
+                                "range": [
+                                    459,
+                                    460
+                                ],
+                                "type": "Identifier",
+                                "name": "x"
+                            },
+                            "right": {
+                                "range": [
+                                    463,
+                                    464
+                                ],
+                                "type": "Identifier",
+                                "name": "y"
+                            }
+                        }
+                    }
+                ]
+            },
+            "generator": false,
+            "expression": false,
+            "leadingComments": [
+                {
+                    "type": "Line",
+                    "value": "@JS_mine({\"specName\":\"Check Sum\",\"testName\":\"should give you the sum\",\"matcher\":\"toBe\",\"param\":{\"ip\":[2,6],\"xop\":{\"returnValue\":8}}});",
+                    "range": [
+                        281,
+                        417
+                    ]
+                }
+            ],
+            "trailingComments": [
+                {
+                    "type": "Line",
+                    "value": "@JS_mine({\"specName\":\"Check Diff\",\"testName\":\"should give you the dif\",\"matcher\":\"toBe\",\"param\":{\"ip\":[12,2],\"xop\":{\"returnValue\":10}}});",
+                    "range": [
+                        474,
+                        613
+                    ]
+                }
+            ]
+        },
+        {
+            "range": [
+                615,
+                663
+            ],
+            "type": "FunctionDeclaration",
+            "id": {
+                "range": [
+                    624,
+                    633
+                ],
+                "type": "Identifier",
+                "name": "checkDiff"
+            },
+            "params": [
+                {
+                    "range": [
+                        634,
+                        635
+                    ],
+                    "type": "Identifier",
+                    "name": "x"
+                },
+                {
+                    "range": [
+                        637,
+                        638
+                    ],
+                    "type": "Identifier",
+                    "name": "y"
+                }
+            ],
+            "defaults": [],
+            "body": {
+                "range": [
+                    640,
+                    663
+                ],
+                "type": "BlockStatement",
+                "body": [
+                    {
+                        "range": [
+                            647,
+                            660
+                        ],
+                        "type": "ReturnStatement",
+                        "argument": {
+                            "range": [
+                                654,
+                                659
+                            ],
+                            "type": "BinaryExpression",
+                            "operator": "-",
+                            "left": {
+                                "range": [
+                                    654,
+                                    655
+                                ],
+                                "type": "Identifier",
+                                "name": "x"
+                            },
+                            "right": {
+                                "range": [
+                                    658,
+                                    659
+                                ],
+                                "type": "Identifier",
+                                "name": "y"
+                            }
+                        }
+                    }
+                ]
+            },
+            "generator": false,
+            "expression": false,
+            "leadingComments": [
+                {
+                    "type": "Line",
+                    "value": "@JS_mine({\"specName\":\"Check Diff\",\"testName\":\"should give you the dif\",\"matcher\":\"toBe\",\"param\":{\"ip\":[12,2],\"xop\":{\"returnValue\":10}}});",
+                    "range": [
+                        474,
+                        613
+                    ]
+                }
+            ]
+        },
+        {
+            "range": [
+                669,
+                765
+            ],
+            "type": "FunctionDeclaration",
+            "id": {
+                "range": [
+                    678,
+                    689
+                ],
+                "type": "Identifier",
+                "name": "provideName"
+            },
+            "params": [],
+            "defaults": [],
+            "body": {
+                "range": [
+                    692,
+                    765
+                ],
+                "type": "BlockStatement",
+                "body": [
+                    {
+                        "range": [
+                            699,
+                            762
+                        ],
+                        "type": "ExpressionStatement",
+                        "expression": {
+                            "range": [
+                                699,
+                                762
+                            ],
+                            "type": "CallExpression",
+                            "callee": {
+                                "range": [
+                                    699,
+                                    710
+                                ],
+                                "type": "Identifier",
+                                "name": "setInterval"
+                            },
+                            "arguments": [
+                                {
+                                    "range": [
+                                        711,
+                                        755
+                                    ],
+                                    "type": "FunctionExpression",
+                                    "id": null,
+                                    "params": [],
+                                    "defaults": [],
+                                    "body": {
+                                        "range": [
+                                            723,
+                                            755
+                                        ],
+                                        "type": "BlockStatement",
+                                        "body": [
+                                            {
+                                                "range": [
+                                                    734,
+                                                    748
+                                                ],
+                                                "type": "ReturnStatement",
+                                                "argument": {
+                                                    "range": [
+                                                        741,
+                                                        747
+                                                    ],
+                                                    "type": "Literal",
+                                                    "value": "Test",
+                                                    "raw": "'Test'"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "generator": false,
+                                    "expression": false
+                                },
+                                {
+                                    "range": [
+                                        757,
+                                        761
+                                    ],
+                                    "type": "Literal",
+                                    "value": 5000,
+                                    "raw": "5000"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "generator": false,
+            "expression": false
+        },
+        {
+            "range": [
+                771,
+                950
+            ],
+            "type": "FunctionDeclaration",
+            "id": {
+                "range": [
+                    780,
+                    791
+                ],
+                "type": "Identifier",
+                "name": "getFullName"
+            },
+            "params": [],
+            "defaults": [],
+            "body": {
+                "range": [
+                    794,
+                    950
+                ],
+                "type": "BlockStatement",
+                "body": [
+                    {
+                        "range": [
+                            801,
+                            817
+                        ],
+                        "type": "VariableDeclaration",
+                        "declarations": [
+                            {
+                                "range": [
+                                    805,
+                                    816
+                                ],
+                                "type": "VariableDeclarator",
+                                "id": {
+                                    "range": [
+                                        805,
+                                        809
+                                    ],
+                                    "type": "Identifier",
+                                    "name": "self"
+                                },
+                                "init": {
+                                    "range": [
+                                        812,
+                                        816
+                                    ],
+                                    "type": "ThisExpression"
+                                }
+                            }
+                        ],
+                        "kind": "var",
+                        "trailingComments": [
+                            {
+                                "type": "Line",
+                                "value": "var firstName = provideName();",
+                                "range": [
+                                    823,
+                                    855
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "range": [
+                            863,
+                            947
+                        ],
+                        "type": "ExpressionStatement",
+                        "expression": {
+                            "range": [
+                                863,
+                                946
+                            ],
+                            "type": "CallExpression",
+                            "callee": {
+                                "range": [
+                                    863,
+                                    874
+                                ],
+                                "type": "Identifier",
+                                "name": "setInterval"
+                            },
+                            "arguments": [
+                                {
+                                    "range": [
+                                        875,
+                                        939
+                                    ],
+                                    "type": "FunctionExpression",
+                                    "id": null,
+                                    "params": [],
+                                    "defaults": [],
+                                    "body": {
+                                        "range": [
+                                            887,
+                                            939
+                                        ],
+                                        "type": "BlockStatement",
+                                        "body": [
+                                            {
+                                                "range": [
+                                                    898,
+                                                    932
+                                                ],
+                                                "type": "ExpressionStatement",
+                                                "expression": {
+                                                    "range": [
+                                                        898,
+                                                        931
+                                                    ],
+                                                    "type": "CallExpression",
+                                                    "callee": {
+                                                        "range": [
+                                                            898,
+                                                            903
+                                                        ],
+                                                        "type": "Identifier",
+                                                        "name": "alert"
+                                                    },
+                                                    "arguments": [
+                                                        {
+                                                            "range": [
+                                                                904,
+                                                                930
+                                                            ],
+                                                            "type": "BinaryExpression",
+                                                            "operator": "+",
+                                                            "left": {
+                                                                "range": [
+                                                                    904,
+                                                                    918
+                                                                ],
+                                                                "type": "MemberExpression",
+                                                                "computed": false,
+                                                                "object": {
+                                                                    "range": [
+                                                                        904,
+                                                                        908
+                                                                    ],
+                                                                    "type": "Identifier",
+                                                                    "name": "self"
+                                                                },
+                                                                "property": {
+                                                                    "range": [
+                                                                        909,
+                                                                        918
+                                                                    ],
+                                                                    "type": "Identifier",
+                                                                    "name": "firstName"
+                                                                }
+                                                            },
+                                                            "right": {
+                                                                "range": [
+                                                                    921,
+                                                                    930
+                                                                ],
+                                                                "type": "Literal",
+                                                                "value": "_Sharma",
+                                                                "raw": "\"_Sharma\""
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "generator": false,
+                                    "expression": false
+                                },
+                                {
+                                    "range": [
+                                        941,
+                                        945
+                                    ],
+                                    "type": "Literal",
+                                    "value": 6000,
+                                    "raw": "6000"
+                                }
+                            ]
+                        },
+                        "leadingComments": [
+                            {
+                                "type": "Line",
+                                "value": "var firstName = provideName();",
+                                "range": [
+                                    823,
+                                    855
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "generator": false,
+            "expression": false
+        }
+    ],
+    "sourceType": "script",
+    "comments": [
+        {
+            "type": "Line",
+            "value": "@JS_mine( {\"specName\":\"SayHello\",\"testName\":\"should say Hello Amit !!\",\"matcher\":\"toEqual\",\"param\":{\"ip\":[],\"xop\":{\"returnValue\":\"Hello Amit !!\"}}});",
+            "range": [
+                2,
+                153
+            ]
+        },
+        {
+            "type": "Line",
+            "value": "@JS_mine({\"specName\":\"Check Sum\",\"testName\":\"should give you the sum\",\"matcher\":\"toBe\",\"param\":{\"ip\":[2,6],\"xop\":{\"returnValue\":8}}});",
+            "range": [
+                281,
+                417
+            ]
+        },
+        {
+            "type": "Line",
+            "value": "@JS_mine({\"specName\":\"Check Diff\",\"testName\":\"should give you the dif\",\"matcher\":\"toBe\",\"param\":{\"ip\":[12,2],\"xop\":{\"returnValue\":10}}});",
+            "range": [
+                474,
+                613
+            ]
+        },
+        {
+            "type": "Line",
+            "value": "var firstName = provideName();",
+            "range": [
+                823,
+                855
+            ]
+        }
+    ],
+    "tokens": [
+        {
+            "type": "Keyword",
+            "value": "function",
+            "range": [
+                155,
+                163
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "sayHello",
+            "range": [
+                164,
+                172
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "(",
+            "range": [
+                172,
+                173
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ")",
+            "range": [
+                173,
+                174
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "{",
+            "range": [
+                175,
+                176
+            ]
+        },
+        {
+            "type": "Keyword",
+            "value": "return",
+            "range": [
+                182,
+                188
+            ]
+        },
+        {
+            "type": "String",
+            "value": "\"Hello Amit !!\"",
+            "range": [
+                189,
+                204
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ";",
+            "range": [
+                204,
+                205
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "}",
+            "range": [
+                207,
+                208
+            ]
+        },
+        {
+            "type": "Keyword",
+            "value": "function",
+            "range": [
+                214,
+                222
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "dontParse",
+            "range": [
+                223,
+                232
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "(",
+            "range": [
+                232,
+                233
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ")",
+            "range": [
+                233,
+                234
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "{",
+            "range": [
+                235,
+                236
+            ]
+        },
+        {
+            "type": "Keyword",
+            "value": "return",
+            "range": [
+                242,
+                248
+            ]
+        },
+        {
+            "type": "String",
+            "value": "\"I don't like parsing!!\"",
+            "range": [
+                249,
+                273
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ";",
+            "range": [
+                273,
+                274
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "}",
+            "range": [
+                276,
+                277
+            ]
+        },
+        {
+            "type": "Keyword",
+            "value": "function",
+            "range": [
+                419,
+                427
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "checkTotal",
+            "range": [
+                428,
+                438
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "(",
+            "range": [
+                438,
+                439
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "x",
+            "range": [
+                439,
+                440
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ",",
+            "range": [
+                440,
+                441
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "y",
+            "range": [
+                442,
+                443
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ")",
+            "range": [
+                443,
+                444
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "{",
+            "range": [
+                445,
+                446
+            ]
+        },
+        {
+            "type": "Keyword",
+            "value": "return",
+            "range": [
+                452,
+                458
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "x",
+            "range": [
+                459,
+                460
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "+",
+            "range": [
+                461,
+                462
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "y",
+            "range": [
+                463,
+                464
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ";",
+            "range": [
+                464,
+                465
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "}",
+            "range": [
+                467,
+                468
+            ]
+        },
+        {
+            "type": "Keyword",
+            "value": "function",
+            "range": [
+                615,
+                623
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "checkDiff",
+            "range": [
+                624,
+                633
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "(",
+            "range": [
+                633,
+                634
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "x",
+            "range": [
+                634,
+                635
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ",",
+            "range": [
+                635,
+                636
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "y",
+            "range": [
+                637,
+                638
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ")",
+            "range": [
+                638,
+                639
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "{",
+            "range": [
+                640,
+                641
+            ]
+        },
+        {
+            "type": "Keyword",
+            "value": "return",
+            "range": [
+                647,
+                653
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "x",
+            "range": [
+                654,
+                655
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "-",
+            "range": [
+                656,
+                657
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "y",
+            "range": [
+                658,
+                659
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ";",
+            "range": [
+                659,
+                660
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "}",
+            "range": [
+                662,
+                663
+            ]
+        },
+        {
+            "type": "Keyword",
+            "value": "function",
+            "range": [
+                669,
+                677
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "provideName",
+            "range": [
+                678,
+                689
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "(",
+            "range": [
+                689,
+                690
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ")",
+            "range": [
+                690,
+                691
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "{",
+            "range": [
+                692,
+                693
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "setInterval",
+            "range": [
+                699,
+                710
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "(",
+            "range": [
+                710,
+                711
+            ]
+        },
+        {
+            "type": "Keyword",
+            "value": "function",
+            "range": [
+                711,
+                719
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "(",
+            "range": [
+                720,
+                721
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ")",
+            "range": [
+                721,
+                722
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "{",
+            "range": [
+                723,
+                724
+            ]
+        },
+        {
+            "type": "Keyword",
+            "value": "return",
+            "range": [
+                734,
+                740
+            ]
+        },
+        {
+            "type": "String",
+            "value": "'Test'",
+            "range": [
+                741,
+                747
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ";",
+            "range": [
+                747,
+                748
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "}",
+            "range": [
+                754,
+                755
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ",",
+            "range": [
+                755,
+                756
+            ]
+        },
+        {
+            "type": "Numeric",
+            "value": "5000",
+            "range": [
+                757,
+                761
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ")",
+            "range": [
+                761,
+                762
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "}",
+            "range": [
+                764,
+                765
+            ]
+        },
+        {
+            "type": "Keyword",
+            "value": "function",
+            "range": [
+                771,
+                779
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "getFullName",
+            "range": [
+                780,
+                791
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "(",
+            "range": [
+                791,
+                792
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ")",
+            "range": [
+                792,
+                793
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "{",
+            "range": [
+                794,
+                795
+            ]
+        },
+        {
+            "type": "Keyword",
+            "value": "var",
+            "range": [
+                801,
+                804
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "self",
+            "range": [
+                805,
+                809
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "=",
+            "range": [
+                810,
+                811
+            ]
+        },
+        {
+            "type": "Keyword",
+            "value": "this",
+            "range": [
+                812,
+                816
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ";",
+            "range": [
+                816,
+                817
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "setInterval",
+            "range": [
+                863,
+                874
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "(",
+            "range": [
+                874,
+                875
+            ]
+        },
+        {
+            "type": "Keyword",
+            "value": "function",
+            "range": [
+                875,
+                883
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "(",
+            "range": [
+                884,
+                885
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ")",
+            "range": [
+                885,
+                886
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "{",
+            "range": [
+                887,
+                888
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "alert",
+            "range": [
+                898,
+                903
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "(",
+            "range": [
+                903,
+                904
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "self",
+            "range": [
+                904,
+                908
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ".",
+            "range": [
+                908,
+                909
+            ]
+        },
+        {
+            "type": "Identifier",
+            "value": "firstName",
+            "range": [
+                909,
+                918
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "+",
+            "range": [
+                919,
+                920
+            ]
+        },
+        {
+            "type": "String",
+            "value": "\"_Sharma\"",
+            "range": [
+                921,
+                930
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ")",
+            "range": [
+                930,
+                931
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ";",
+            "range": [
+                931,
+                932
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "}",
+            "range": [
+                938,
+                939
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ",",
+            "range": [
+                939,
+                940
+            ]
+        },
+        {
+            "type": "Numeric",
+            "value": "6000",
+            "range": [
+                941,
+                945
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ")",
+            "range": [
+                945,
+                946
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": ";",
+            "range": [
+                946,
+                947
+            ]
+        },
+        {
+            "type": "Punctuator",
+            "value": "}",
+            "range": [
+                949,
+                950
+            ]
+        }
+    ],
+    "errors": []
+}

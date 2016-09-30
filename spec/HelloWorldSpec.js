@@ -1,0 +1,1 @@
+ describe('SayHello' ,function(){it('should say Hello Amit !!',function(){expect(sayHello()).toEqual('Hello Amit !!');});}); describe('Check Sum' ,function(){it('should give you the sum',function(){expect(checkTotal(2,6)).toBe(8);});}); describe('Check Diff' ,function(){it('should give you the dif',function(){expect(checkDiff(12,2)).toBe(10);});});

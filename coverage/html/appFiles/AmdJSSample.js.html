@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for appFiles\AmdJSSample.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../index.html">all files</a> / <a href="index.html">appFiles/</a> AmdJSSample.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">1.67% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>1/60</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/9</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/19</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">1.67% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>1/60</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**
+ * Created by amitsh on 26-01-2016.
+ */
+define(['dojo/_base/declare',
+        'dojo/topic',
+        'dojo/text!./Widget.html',
+        'dojo/_base/lang',
+        'esri/dijit/HomeButton',
+        'esri/geometry/Extent',
+        'dojo/_base/html',
+        'dojo/dom-construct',
+        'qsjs/BaseWidget',
+        'esri/toolbars/navigation',
+        'dijit/registry',
+        'dojo/query',
+        'dojo/on',
+        "dijit/_WidgetsInTemplateMixin",
+        "dijit/Toolbar",
+        "dijit/TooltipDialog",
+        "dijit/Tooltip",
+        "dijit/form/Button",
+        "dijit/popup",
+        "dojo/dom",
+        "dojo/dom-attr",
+        "dojo/_base/array",
+        "dojo/mouse",
+        "dojo/domReady!"
+    ],
+<span class="fstat-no" title="function not covered" >    function (declare,Topic,template,lang,HomeButton,Extent,html,domConstruct, BaseWidget,Navigation,registry,</span>
+              dojoquery,on,_WidgetsInTemplateMixin,Toolbar,TooltipDialog,Tooltip,Button,popup,dom,domAttr,array,mouse) {
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        var navToolbar,myTooltipDialog;</span>
+<span class="cstat-no" title="statement not covered" >        var layerInfo = [];</span>
+<span class="cstat-no" title="statement not covered" >        var clazz = declare([BaseWidget,_WidgetsInTemplateMixin], {</span>
+&nbsp;
+            baseClass: 'jimu-widget-demo',
+            name: 'Navigation',
+            templateString: template,
+&nbsp;
+            startup: <span class="fstat-no" title="function not covered" >function() {</span>
+<span class="cstat-no" title="statement not covered" >                this.inherited(arguments);</span>
+<span class="cstat-no" title="statement not covered" >                this._bindEvent();</span>
+<span class="cstat-no" title="statement not covered" >                this._updateToolTip();</span>
+<span class="cstat-no" title="statement not covered" >                var slider = dojo.query('.dijitSliderImageHandle');</span>
+<span class="cstat-no" title="statement not covered" >                this.own(on(slider, mouse.leave, lang.hitch(this, this._updateToolTipLabel)));</span>
+<span class="cstat-no" title="statement not covered" >                this.own(on(slider, mouse.enter, lang.hitch(this, this._updateToolTipLabel)));</span>
+&nbsp;
+                //receive notification to change navigation mode.
+<span class="cstat-no" title="statement not covered" >                Topic.subscribe("navigation-change", this._changeType);</span>
+            },
+&nbsp;
+            _bindEvent:<span class="fstat-no" title="function not covered" >function() {</span>
+<span class="cstat-no" title="statement not covered" >                var self = this;</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >                navToolbar = new Navigation(this.map);</span>
+<span class="cstat-no" title="statement not covered" >                on(navToolbar, "onExtentHistoryChange", this.extentHistoryChangeHandler);</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >                dojoquery('zoomnextIcon').on("click", lang.hitch(<span class="fstat-no" title="function not covered" >function (evt) {</span></span>
+<span class="cstat-no" title="statement not covered" >                    navToolbar.zoomToNextExtent();</span>
+                }));
+&nbsp;
+<span class="cstat-no" title="statement not covered" >                dojoquery('zoomprevIcon').on("click", lang.hitch(<span class="fstat-no" title="function not covered" >function (evt) {</span></span>
+<span class="cstat-no" title="statement not covered" >                    navToolbar.zoomToPrevExtent();</span>
+                }));
+            },
+&nbsp;
+            _changeType: <span class="fstat-no" title="function not covered" >function(type) {</span>
+<span class="cstat-no" title="statement not covered" >                var self=this;</span>
+<span class="cstat-no" title="statement not covered" >                console.log(type);</span>
+<span class="cstat-no" title="statement not covered" >                switch(type) {</span>
+                    case "pan":
+<span class="cstat-no" title="statement not covered" >                        navToolbar.activate(Navigation.PAN);</span>
+<span class="cstat-no" title="statement not covered" >                        console.log("navigation changed to pan");</span>
+<span class="cstat-no" title="statement not covered" >                        break;</span>
+                    case "zoomin":
+<span class="cstat-no" title="statement not covered" >                        break;</span>
+                    case "zoomout":
+<span class="cstat-no" title="statement not covered" >                        break;</span>
+                    case "previous":
+<span class="cstat-no" title="statement not covered" >                        break;</span>
+                    case "next":
+<span class="cstat-no" title="statement not covered" >                        break;</span>
+                    case "activate":
+<span class="cstat-no" title="statement not covered" >                        navToolbar.activate();</span>
+<span class="cstat-no" title="statement not covered" >                        break;</span>
+                    case "deactivate":
+<span class="cstat-no" title="statement not covered" >                        navToolbar.deactivate();</span>
+<span class="cstat-no" title="statement not covered" >                        console.log("navigation deactivate");</span>
+<span class="cstat-no" title="statement not covered" >                        break;</span>
+                }
+            },
+&nbsp;
+            _updateToolTip: <span class="fstat-no" title="function not covered" >function(){</span>
+<span class="cstat-no" title="statement not covered" >                var centerSlider = dojo.query('.dijitSliderImageHandle');</span>
+<span class="cstat-no" title="statement not covered" >                if(centerSlider){</span>
+<span class="cstat-no" title="statement not covered" >                    this.sliderTooltip = new Tooltip({</span>
+                        id:"sliderToolTip",
+                        connectId: [centerSlider],
+                        position: ['below'],
+                        label: this.map.getScale().toString().split(".")[0]
+                    });
+<span class="cstat-no" title="statement not covered" >                    this.sliderTooltip.startup();</span>
+                }
+&nbsp;
+            },
+&nbsp;
+            _updateToolTipLabel: <span class="fstat-no" title="function not covered" >function () {</span>
+<span class="cstat-no" title="statement not covered" >                var self = this;</span>
+<span class="cstat-no" title="statement not covered" >                this.sliderTooltip.set("label", this.map.getScale().toString().split(".")[0]);</span>
+            },
+&nbsp;
+            extentHistoryChangeHandler: <span class="fstat-no" title="function not covered" >function () {</span>
+<span class="cstat-no" title="statement not covered" >                registry.byId("prevExtent").disabled = navToolbar.isFirstExtent();</span>
+<span class="cstat-no" title="statement not covered" >                registry.byId("nextExtent").disabled = navToolbar.isLastExtent();</span>
+            },
+&nbsp;
+            _showNextExtent: <span class="fstat-no" title="function not covered" >function () {</span>
+<span class="cstat-no" title="statement not covered" >                navToolbar.zoomToNextExtent();</span>
+            },
+&nbsp;
+            _showFullExtent: <span class="fstat-no" title="function not covered" >function () {</span>
+                //navToolbar.zoomToFullExtent();
+<span class="cstat-no" title="statement not covered" >                var self = this;</span>
+<span class="cstat-no" title="statement not covered" >                var initExtent = new esri.geometry.Extent(self.appConfig.map.mapOptions.extent);</span>
+<span class="cstat-no" title="statement not covered" >                this.map.setExtent(initExtent);</span>
+            },
+&nbsp;
+            _showPreviousExtent: <span class="fstat-no" title="function not covered" >function () {</span>
+<span class="cstat-no" title="statement not covered" >                navToolbar.zoomToPrevExtent();</span>
+            },
+&nbsp;
+            _moveUp:<span class="fstat-no" title="function not covered" >function(){</span>
+<span class="cstat-no" title="statement not covered" >                this.map.panUp();</span>
+            },
+&nbsp;
+            _moveDown:<span class="fstat-no" title="function not covered" >function(){</span>
+<span class="cstat-no" title="statement not covered" >                this.map.panDown();</span>
+            },
+&nbsp;
+            _moveLeft:<span class="fstat-no" title="function not covered" >function(){</span>
+<span class="cstat-no" title="statement not covered" >                this.map.panLeft();</span>
+            },
+&nbsp;
+            _moveRight:<span class="fstat-no" title="function not covered" >function(){</span>
+<span class="cstat-no" title="statement not covered" >                this.map.panRight();</span>
+            },
+&nbsp;
+            _enablePanning: <span class="fstat-no" title="function not covered" >function(){</span>
+<span class="cstat-no" title="statement not covered" >                navToolbar.activate(Navigation.PAN);</span>
+            },
+&nbsp;
+            _enableRubberZoomIn: <span class="fstat-no" title="function not covered" >function(){</span>
+<span class="cstat-no" title="statement not covered" >                Topic.publish("disableDependent");</span>
+<span class="cstat-no" title="statement not covered" >                navToolbar.activate(Navigation.ZOOM_IN);</span>
+            },
+&nbsp;
+            _enableRubberZoomOut: <span class="fstat-no" title="function not covered" >function(){</span>
+<span class="cstat-no" title="statement not covered" >                Topic.publish("disableDependent");</span>
+<span class="cstat-no" title="statement not covered" >                navToolbar.activate(Navigation.ZOOM_OUT);</span>
+            }
+&nbsp;
+        });
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        clazz.hasStyle = false;</span>
+<span class="cstat-no" title="statement not covered" >        clazz.hasUIFile = false;</span>
+<span class="cstat-no" title="statement not covered" >        clazz.hasLocale = false;</span>
+<span class="cstat-no" title="statement not covered" >        clazz.hasConfig = false;</span>
+<span class="cstat-no" title="statement not covered" >        return clazz;</span>
+    });</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Tue Jan 26 2016 11:53:19 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../sorter.js"></script>
+</body>
+</html>
