@@ -10,11 +10,15 @@ Libraries used:
 [Plato](https://github.com/es-analysis/plato)
 
 take the configuration object from your API and 
+
+
 1. Creates test cases from that
 2. Execute those test cases
 3. Generate useful reports
 
 Configuration for the API will work like :
+
+
 //@JS_mine("matcher":"toBe",
 //         "param":{"ip":[12,2],
 //         "xop":{"returnValue":10}}});
