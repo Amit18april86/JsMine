@@ -20,11 +20,17 @@ Configuration for the API will work like :
 
 
 //@JS_mine("matcher":"toBe",
+
 //         "param":{"ip":[12,2],
+
 //         "xop":{"returnValue":10}}});
+
 function checkDiff(x, y) {
+
     return x - y;
+    
 }
+
 
 where Param are input parameter for test , xop is expected output.
 '//' are used with @JS_mine tag, as the compiler will read only the comments for given api with @JS_mine tag in it.
